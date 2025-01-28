@@ -7,12 +7,13 @@
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  background: linear-gradient(to right, #5b483a, #262425, #211f20);
+  background-color: white;
 }
 
 .header {
   max-width: 1280px;
   max-height: 100px;
+  background: linear-gradient(to right, #5b483a, #262425, #211f20);
 }
 
 .wrapp {
@@ -23,7 +24,7 @@ body {
   margin-top: -20px;
 }
 
-.p1 {
+.h1_title {
   font-size: 32px;
   color: #f1cdb3;
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -48,20 +49,26 @@ a {
 }
 
 main {
-  padding: 20px;
 }
 
 .first_section {
   display: flex;
+  width: 1280px;
   justify-content: space-between;
   align-items: center;
+  background: linear-gradient(to right, #5b483a, #262425, #211f20);
 }
 .cry_story {
+  padding-left: 40px;
   color: white;
   text-align: left;
 }
+.section-info_img {
+  padding-left: 175px;
+  padding-right: 120px;
+}
 
-.Make_a_friend_Btn {
+.button_make_friend {
   background-color: #f1cdb3;
   font-size: 17px;
   border-radius: 100px;
@@ -69,23 +76,120 @@ main {
   cursor: pointer;
 }
 
-.h1_section {
+.section-info__title {
+  align-items: center;
   font-size: 44px;
   line-height: 57px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: 300;
-  padding-bottom: 42px;
 }
-.p1_section {
+.section-info__p {
+  align-items: center;
   font-size: 15px;
   line-height: 24px;
-  padding-bottom: 42px;
+}
+.section-info__psecond {
+  margin-top: 25px;
 }
 
 .friend_photo {
   padding-top: 180px;
 }
 
+/* SECOND PART PF MAIN START */
+.section-info {
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  padding-top: 80px;
+  padding-bottom: 114px;
+}
+
+.section-info__rewiev {
+  justify-content: center;
+  padding-right: 175px;
+  padding-left: 120px;
+}
+
+/* SECOND PART PF MAIN END */
+
+/* THIRD PARH START */
+.pet-info {
+}
+.pet-info_body {
+  width: 1280px;
+  height: 877px;
+  top: 1496px;
+  gap: 0px;
+  opacity: 0px;
+}
+.pet-info_header {
+}
+.pet-info_title {
+  margin: 60px 0px 60px 0px;
+}
+
+.title {
+  font-family: Georgia;
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 45.5px;
+  letter-spacing: 0.06em;
+  text-align: center;
+  text-underline-position: auto;
+  text-decoration-skip-ink: none;
+}
+.pet-info_row {
+  display: flex;
+  justify-content: space-around;
+}
+.pet-info_column {
+  text-align: center;
+}
+.item-about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.item-about_img {
+  width: 270px;
+  height: 270px;
+  border-radius: 9px 9px 0px 0px;
+}
+
+.item-about_text {
+  margin: 30px 0px 30px 0px;
+  font-size: 18px;
+  color: black;
+}
+.item-about_button {
+  font-size: 17px;
+  width: 187px;
+  height: 52px;
+  top: 353px;
+  left: 41.5px;
+  gap: 0px;
+  opacity: 0px;
+  border-radius: 100px;
+  border-color: #f1cdb3;
+
+  box-shadow: none;
+}
+
+.pet-info_button {
+  font-size: 17px;
+  margin: 60px 0px 0px 0px;
+  align-items: center;
+  width: 261px;
+  height: 52px;
+  top: 645px;
+  left: 470px;
+  padding: 15px 45px 15px 45px;
+  border-radius: 100px;
+  border-style: none;
+}
+/* THIRD PART END */
 footer {
   background: #333;
   text-align: center;
