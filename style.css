@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: linear-gradient(to right, #5b483a, #262425, #211f20);
+}
+
+.header {
+  max-width: 1280px;
+  max-height: 100px;
+}
+
+.wrapp {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+  margin-top: -20px;
+}
+
+.p1 {
+  font-size: 32px;
+  color: #f1cdb3;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 400;
+}
+
+.p2 {
+  font-size: 13px;
+  line-height: 10px;
+  color: white;
+}
+
+.right_side {
+  text-align: center;
+}
+
+a {
+  padding-left: 35px;
+  font-size: 15px;
+  text-decoration: none;
+  color: white;
+}
+
+main {
+  padding: 20px;
+}
+
+.first_section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cry_story {
+  color: white;
+  text-align: left;
+}
+
+.Make_a_friend_Btn {
+  background-color: #f1cdb3;
+  font-size: 17px;
+  border-radius: 100px;
+  padding: 15px 45px;
+  cursor: pointer;
+}
+
+.h1_section {
+  font-size: 44px;
+  line-height: 57px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 300;
+  padding-bottom: 42px;
+}
+.p1_section {
+  font-size: 15px;
+  line-height: 24px;
+  padding-bottom: 42px;
+}
+
+.friend_photo {
+  padding-top: 180px;
+}
+
+footer {
+  background: #333;
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* Медиа-запросы для адаптивности */
+@media (min-width: 1280px) {
+  body {
+    max-width: 1280px;
+    margin: auto;
+  }
+}
