@@ -1,0 +1,56 @@
+header {
+  max-width: 1280px;
+  max-height: 100px;
+  margin: 0 auto;
+}
+
+.header-pets__wrapp {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+}
+
+.header-pets__titel {
+  font-size: 32px;
+  color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 400;
+}
+.header-pets__undertitel {
+  font-size: 13px;
+  color: black;
+}
+
+.header-pets__right {
+  text-align: center;
+}
+.header-pets__nav {
+  display: flex;
+  justify-content: center;
+}
+.my-link {
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 15px;
+  text-decoration: none;
+  color: black;
+  position: relative;
+}
+
+.my-link::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #f1cdb3;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.my-link:hover::after {
+  transform: scaleX(1);
+}

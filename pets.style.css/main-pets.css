@@ -1,0 +1,53 @@
+.header-pets {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+.header-pets__wrapp {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+  text-align: center;
+}
+
+.main-section {
+  width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.pet-info__header {
+  margin-bottom: 20px;
+}
+
+.pet-info__title {
+  margin: 60px 0px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 45.5px;
+  letter-spacing: 0.06em;
+  text-align: center;
+  text-decoration-skip-ink: none;
+}
+
+.pet-info__row {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.pet-info__column {
+  margin: 0 10px;
+  text-align: center;
+}
+
+.item-about__button {
+  margin-top: 10px;
+}
+
+.pet-info__navigation {
+  margin-top: 60px;
+  margin-bottom: 100px;
+}
