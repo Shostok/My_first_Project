@@ -21,7 +21,6 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 20px 30px;
-  margin-top: -20px;
 }
 
 .h1_title {
@@ -33,7 +32,6 @@ body {
 
 .p2 {
   font-size: 13px;
-  line-height: 10px;
   color: white;
 }
 
@@ -48,7 +46,7 @@ a {
   color: white;
 }
 
-main {
+.main {
 }
 
 .first_section {
@@ -58,14 +56,15 @@ main {
   align-items: center;
   background: linear-gradient(to right, #5b483a, #262425, #211f20);
 }
+
 .cry_story {
   padding-left: 40px;
   color: white;
   text-align: left;
 }
+
 .section-info_img {
   padding-left: 175px;
-  padding-right: 120px;
 }
 
 .button_make_friend {
@@ -83,11 +82,13 @@ main {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: 300;
 }
+
 .section-info__p {
   align-items: center;
   font-size: 15px;
   line-height: 24px;
 }
+
 .section-info__psecond {
   margin-top: 25px;
 }
@@ -96,11 +97,10 @@ main {
   padding-top: 180px;
 }
 
-/* SECOND PART PF MAIN START */
+/* SECOND PART OF MAIN START */
 .section-info {
   display: flex;
   justify-content: space-between;
-  align-self: center;
   padding-top: 80px;
   padding-bottom: 114px;
 }
@@ -111,22 +111,25 @@ main {
   padding-left: 120px;
 }
 
-/* SECOND PART PF MAIN END */
+/* SECOND PART OF MAIN END */
 
-/* THIRD PARH START */
+/* THIRD PART START */
 .pet-info {
 }
+
 .pet-info_body {
   width: 1280px;
-  height: 877px;
-  top: 1496px;
+  height: auto; /* Измените на auto для адекватного отображения */
   gap: 0px;
-  opacity: 0px;
 }
+
 .pet-info_header {
+  text-align: center;
+  padding-bottom: 100px;
 }
+
 .pet-info_title {
-  margin: 60px 0px 60px 0px;
+  margin: 60px 0px;
 }
 
 .title {
@@ -134,24 +137,23 @@ main {
   font-size: 35px;
   font-weight: 400;
   line-height: 45.5px;
-  letter-spacing: 0.06em;
-  text-align: center;
-  text-underline-position: auto;
-  text-decoration-skip-ink: none;
 }
+
 .pet-info_row {
   display: flex;
   justify-content: space-around;
 }
+
 .pet-info_column {
   text-align: center;
 }
+
 .item-about {
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-align: center;
 }
+
 .item-about_img {
   width: 270px;
   height: 270px;
@@ -159,37 +161,40 @@ main {
 }
 
 .item-about_text {
-  margin: 30px 0px 30px 0px;
+  margin: 30px 0px;
   font-size: 18px;
   color: black;
 }
+
 .item-about_button {
   font-size: 17px;
   width: 187px;
   height: 52px;
-  top: 353px;
-  left: 41.5px;
-  gap: 0px;
-  opacity: 0px;
   border-radius: 100px;
-  border-color: #f1cdb3;
-
-  box-shadow: none;
+  border: 1px solid #f1cdb3;
 }
 
-.pet-info_button {
+.item-about__button-rest {
+  font-family: Georgia;
   font-size: 17px;
-  margin: 60px 0px 0px 0px;
-  align-items: center;
-  width: 261px;
-  height: 52px;
-  top: 645px;
-  left: 470px;
-  padding: 15px 45px 15px 45px;
+  background-color: #f1cdb3;
   border-radius: 100px;
-  border-style: none;
+  border: none;
+  height: 52px;
+  width: 261px;
+  cursor: pointer;
+  margin-top: 60px;
 }
+
 /* THIRD PART END */
+
+/* FOURS PART START */
+
+.shelter-help__title {
+}
+
+/* FOURS PART END */
+
 footer {
   background: #333;
   text-align: center;

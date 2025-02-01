@@ -1,0 +1,28 @@
+.button_make_friend {
+  background-color: #f1cdb3;
+  font-size: 17px;
+  border-radius: 100px;
+  padding: 15px 45px;
+  cursor: pointer;
+}
+
+.item-about_button {
+  font-size: 17px;
+  width: 187px;
+  height: 52px;
+  border-radius: 100px;
+  border: 1px solid #f1cdb3;
+  cursor: pointer;
+}
+
+.item-about__button-rest {
+  font-family: Georgia;
+  font-size: 17px;
+  background-color: #f1cdb3;
+  border-radius: 100px;
+  border: none;
+  height: 52px;
+  width: 261px;
+  cursor: pointer;
+  margin-top: 80px;
+}

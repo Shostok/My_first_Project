@@ -2,9 +2,22 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0,
+    user-scalable=no, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <title>Cozy House | Home</title>
+    <link rel="stylesheet" href="css.styles/base.css" />
+    <link rel="stylesheet" href="css.styles/header.css" />
+    <link rel="stylesheet" href="css.styles/first_section.css" />
+    <link rel="stylesheet" href="css.styles/section_info.css" />
+    <link rel="stylesheet" href="css.styles/pet_info.css" />
+    <link rel="stylesheet" href="css.styles/buttons.css" />
+    <link rel="stylesheet" href="css.styles/shelter_help.css" />
+    <link rel="stylesheet" href="css.styles/responsive.css" />
+    <link rel="stylesheet" href="css.styles/donation.css" />
+    <link rel="stylesheet" href="css.styles/footer.css" />
   </head>
   <body>
     <header class="header">
@@ -99,10 +112,115 @@
                 <button class="item-about_button">Learn more</button>
               </div>
             </div>
+            <button class="item-about__button-rest">
+              Get to know the rest
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="shelter-help">
+        <div class="shelter-help__card">
+          <h1 class="shelter-help__title">
+            How you can help <br />our shelter
+          </h1>
+          <div class="shelter-help__items">
+            <div class="shelter-help__first">
+              <div class="shelter-help__icon">
+                <img src="svg/icon-pet-food.svg" alt="Pet food" /> Pet food
+              </div>
+              <div class="shelter-help__icon">
+                <img
+                  src="svg/icon-transportation.svg"
+                  alt="Transportation"
+                />Transportation
+              </div>
+              <div class="shelter-help__icon">
+                <img src="svg/icon-toys.svg" alt="Toys" />Toys
+              </div>
+              <div class="shelter-help__icon">
+                <img src="svg/icon-bowls-and-cups.svg" alt="Bowls and cups" />
+                Bowls and cups
+              </div>
+              <div class="shelter-help__icon">
+                <img src="svg/icon-shampoos.svg" alt="Shampoos" />Shampoos
+              </div>
+            </div>
+            <div class="shelter-help__second">
+              <div class="shelter-help__icon">
+                <img src="svg/icon-vitamins.svg" alt="Vitamins" />Vitamins
+              </div>
+              <div class="shelter-help__icon">
+                <img src="svg/icon-medicines.svg" alt="" />Medicines
+              </div>
+              <div class="shelter-help__icon">
+                <img
+                  src="svg/icon-collars-leashes.svg"
+                  alt="Collars / leashes"
+                />Collars / leashes
+              </div>
+              <div class="shelter-help__icon">
+                <img
+                  src="svg/icon-sleeping-area.svg"
+                  alt="Sleeping areas"
+                />Sleeping areas
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="donation">
+        <div class="donation-info">
+          <div class="donation-info__img">
+            <img src="img/donation-dog.png" alt="doggy" />
+          </div>
+          <div class="donation-info__info">
+            <h3>
+              You can also <br />
+              make a donation
+            </h3>
+            <h5>Name of the bank / Type of bank account</h5>
+            <p class="donation-info__card">
+              <img src="svg/credit-card.svg" alt="credit-card" />8380 2880 8028
+              8791 7435
+            </p>
+            <p class="donation-info__about">
+              "Help us care for vulnerable animals by donating to our shelter.
+              <br />Your generous contributions provide food, medical treatment,
+              <br />and loving homes for abandoned pets. Together, we can make a
+              <br />difference and give these animals the love they deserve."
+            </p>
           </div>
         </div>
       </section>
     </main>
+    <footer class="footer">
+      <div class="footer-info">
+        <div class="footer-info__questions">
+          <h3 class="footer-info__h3">For questions <br />and suggestions</h3>
+          <p class="footer-info__p">
+            <img src="svg/icon-email.svg" alt="icon-email" />email@shelter.com
+          </p>
+          <p class="footer-info__p">
+            <img src="svg/icon-phone.svg" alt="icon-phone" />+13 674 567 75 54
+          </p>
+        </div>
+        <div class="footer-info__visit">
+          <h3 class="footer-info__h3">We are waiting <br />for your visit</h3>
+          <p class="footer-info__p">
+            <img src="svg/icon-marker.png" alt="icon-marker" />1 Central Street,
+            Boston <br />
+            (entrance from the store)
+          </p>
+          <p class="footer-info__p">
+            <img src="svg/icon-marker.png" alt="icon-marker" />18 South Park,
+            London
+          </p>
+        </div>
+        <div class="footer-info__img">
+          <img src="img/footer-puppy.png" alt="footer-puppy" />
+        </div>
+      </div>
+    </footer>
     <script src="script.js"></script>
   </body>
 </html>

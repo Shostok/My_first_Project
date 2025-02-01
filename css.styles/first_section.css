@@ -1,0 +1,17 @@
+.first_section {
+  display: flex;
+  width: 1280px;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right, #5b483a, #262425, #211f20);
+}
+
+.cry_story {
+  padding-left: 40px;
+  color: white;
+  text-align: left;
+}
+
+.friend_photo {
+  padding-top: 180px;
+}

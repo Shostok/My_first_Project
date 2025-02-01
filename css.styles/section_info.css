@@ -1,0 +1,34 @@
+.section-info {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 80px;
+  padding-bottom: 114px;
+}
+
+.section-info_img {
+  padding-left: 175px;
+}
+
+.section-info__rewiev {
+  justify-content: center;
+  padding-right: 175px;
+  padding-left: 120px;
+}
+
+.section-info__title {
+  align-items: center;
+  font-size: 44px;
+  line-height: 57px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 300;
+}
+
+.section-info__p {
+  align-items: center;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.section-info__psecond {
+  margin-top: 25px;
+}
