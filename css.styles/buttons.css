@@ -4,6 +4,12 @@
   border-radius: 100px;
   padding: 15px 45px;
   cursor: pointer;
+  margin-top: 42px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.button_make_friend:hover {
+  background-color: #fddcc4;
 }
 
 .item-about_button {
@@ -13,6 +19,11 @@
   border-radius: 100px;
   border: 1px solid #f1cdb3;
   cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.item-about_button:hover {
+  background-color: #fddcc4;
 }
 
 .item-about__button-rest {
@@ -25,4 +36,8 @@
   width: 261px;
   cursor: pointer;
   margin-top: 80px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+.item-about__button-rest:hover {
+  background-color: #fddcc4;
 }

@@ -27,9 +27,33 @@
   text-align: center;
 }
 
-a {
-  padding-left: 35px;
+.nav_header {
+  display: flex;
+  justify-content: center;
+}
+
+.my-link {
+  display: inline-block;
+  padding: 10px 15px;
   font-size: 15px;
   text-decoration: none;
   color: white;
+  position: relative;
+}
+
+.my-link::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #f1cdb3;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.my-link:hover::after {
+  transform: scaleX(1);
 }
