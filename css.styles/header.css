@@ -1,59 +1,101 @@
 .header {
-  max-width: 1280px;
-  max-height: 100px;
-  background: linear-gradient(to right, #5b483a, #262425, #211f20);
+	/* max-width: 1280px;
+	max-height: 100px; */
+	background: linear-gradient(to right, #5b483a, #262425, #211f20);
+}
+
+header {
+	position: sticky;
+	z-index: 1000;
+	top: 0px;
 }
 
 .wrapp {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 30px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	padding-top: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
 }
 
 .h1_title {
-  font-size: 32px;
-  color: #f1cdb3;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-weight: 400;
+	font-size: 32px;
+	color: #f1cdb3;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-weight: 400;
 }
 
 .p2 {
-  font-size: 13px;
-  color: white;
+	font-size: 13px;
+	color: white;
 }
 
 .right_side {
-  text-align: center;
+	text-align: center;
 }
 
 .nav_header {
-  display: flex;
-  justify-content: center;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .my-link {
-  display: inline-block;
-  padding: 10px 15px;
-  font-size: 15px;
-  text-decoration: none;
-  color: white;
-  position: relative;
+	display: inline-block;
+	padding: 10px 15px;
+	font-size: 15px;
+	text-decoration: none;
+	color: white;
+	position: relative;
+	flex-grow: 1;
+	text-align: center;
 }
 
 .my-link::after {
-  content: '';
-  display: block;
-  width: 100%;
-  height: 2px;
-  background-color: #f1cdb3;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  transform: scaleX(0);
-  transition: transform 0.3s ease;
+	content: '';
+	width: 100%;
+	height: 2px;
+	background-color: #f1cdb3;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	transform: scaleX(0);
+	transition: transform 0.3s ease;
 }
 
 .my-link:hover::after {
-  transform: scaleX(1);
+	transform: scaleX(1);
+}
+/* #dws-menu,
+header label {
+	display: none;
+} */
+
+.hamburger {
+	display: none;
+	cursor: pointer;
+}
+.span {
+	display: block;
+	width: 25px;
+	height: 2px;
+	background-color: #fff;
+	margin: 5px auto;
+	transition: all 0.3s ease-in-out;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+.nav-item {
+	list-style: none;
+}
+
+.nav-menu {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }

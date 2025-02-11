@@ -50,4 +50,5 @@
 .pet-info__navigation {
   margin-top: 60px;
   margin-bottom: 100px;
+  cursor: pointer;
 }
