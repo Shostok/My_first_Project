@@ -68,10 +68,6 @@ header {
 .my-link:hover::after {
 	transform: scaleX(1);
 }
-/* #dws-menu,
-header label {
-	display: none;
-} */
 
 .hamburger {
 	display: none;

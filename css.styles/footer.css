@@ -1,60 +1,59 @@
 .footer {
-  background: linear-gradient(to right, #5b483a, #262425, #211f20);
+	background: linear-gradient(to right, #5b483a, #262425, #211f20);
 }
 
 .footer-info {
-  display: flex;
-  justify-content: space-around;
-  padding-top: 40px;
+	display: flex;
+	justify-content: space-around;
+	padding-top: 40px;
 }
 
 .footer-info__h3 {
-  color: white;
-  font-family: Georgia;
-  font-size: 35px;
-  font-weight: 400;
-  line-height: 45.5px;
-  letter-spacing: 0.06em;
-  text-align: left;
-  text-decoration-skip-ink: none;
+	color: white;
+	font-family: Georgia;
+	font-size: 35px;
+	font-weight: 400;
+	line-height: 45.5px;
+	letter-spacing: 0.06em;
+	text-align: left;
+	text-decoration-skip-ink: none;
 }
 
 .footer-info__p img {
-  margin-right: 20px;
+	margin-right: 20px;
 }
 
 .footer-info__p {
-  color: #f1cdb3;
-  margin: 40px 0px;
-  font-family: Georgia;
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 23px;
-  letter-spacing: 0.06em;
-  text-align: left;
-  text-decoration-skip-ink: none;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
+	color: #f1cdb3;
+	margin: 40px 0px;
+	font-family: Georgia;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 23px;
+	letter-spacing: 0.06em;
+	text-align: left;
+	text-decoration-skip-ink: none;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
 }
 
 .footer-info__questions {
-  padding-left: 40px;
-  padding-right: 160px;
-  text-align: left;
+	padding: 0;
+	text-align: left;
 }
 
 .footer-info__visit {
-  padding-right: 160px;
+	padding: 0px;
 }
 
 .footer-info__img {
-  padding: 0;
-  margin: 0;
+	padding: 0;
+	margin: 0;
 }
 
 .footer-info__img img {
-  display: block;
-  width: auto;
-  height: auto;
+	display: block;
+	width: auto;
+	height: auto;
 }

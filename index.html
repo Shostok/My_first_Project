@@ -19,6 +19,10 @@
 		<link rel="stylesheet" href="css.styles/donation.css" />
 		<link rel="stylesheet" href="css.styles/footer.css" />
 		<link rel="stylesheet" href="css.styles/modal_window.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+		/>
 
 		<link
 			rel="stylesheet"
@@ -33,11 +37,6 @@
 					<h1 class="h1_title">Cozy House</h1>
 					<p class="p2">Shelter for pets in Boston</p>
 				</div>
-
-				<!-- <input type="checkbox" id="dws-menu" />
-				<div class="leb-menu">
-					<label for="dws-menu"><img src="img/Burger.png" alt="" /></label>
-				</div> -->
 
 				<div class="right_side">
 					<nav class="nav_header">
@@ -65,7 +64,10 @@
 		<main class="main">
 			<section id="first-section" class="first_section">
 				<div class="cry_story">
-					<h1 class="h1_section">Not only people need a house</h1>
+					<h1 class="h1_section">
+						Not only people <br />
+						need a house
+					</h1>
 					<p class="p1_section">
 						We offer to give a chance to a little and nice puppy with an
 						extremely wide and open heart. He or she will love you more than
@@ -78,7 +80,7 @@
 				</div>
 			</section>
 			<section id="second-section" class="section-info">
-				<div>
+				<div class="first-section__img">
 					<img
 						class="section-info_img"
 						src="img/de200ad351db707bd7878caaee2f7b79.png"
@@ -107,38 +109,83 @@
 				</div>
 			</section>
 			<section id="third-section" class="pet-info">
-				<div class="pet-info_body">
-					<div class="pet-info_header">
-						<div class="pet-info_title title">
-							Our friends who <br />
-							are looking for a house
-						</div>
-						<div class="pet-info_row">
-							<div class="pet-info_column">
-								<div class="item-about">
+				<div class="pet-info_header">
+					<div class="pet-info_title title">
+						Our friends who <br />
+						are looking for a house
+					</div>
+					<div id="slider-container" class="slider-container">
+						<div class="arrow_slider_left">&#8592;</div>
+						<div id="slider" class="slider-track">
+							<div class="pet-info_row">
+								<div class="pet-info_column block">
 									<div class="item-about_img">
 										<img src="img/Katrine.png" alt="" />
 									</div>
+
 									<div class="item-about_text">Katrine</div>
 									<button class="item-about_button1">Learn more</button>
+									<div class="modal1">
+										<div class="modal__main">
+											<div class="modal__container"></div>
+											<img src="img/Katrine.png" alt="" />
+											<div class="modal-info">
+												<h2>Jennifer</h2>
+												<h3>Cat- Katrine</h3>
+												<p>
+													Katrine is a lovely 2-year-old cat who is patiently
+													looking for her forever home. This playful girl adores
+													exploring the outdoors and soaking up the sunshine,
+													but she also loves curling up inside for cozy nap
+													times. With her charming personality, Luna enjoys
+													entertaining herself with her favorite toys and
+													engaging in playful antics. She's ready to bring joy
+													and companionship to a new family who will cherish her
+													playful spirit and affectionate nature!
+												</p>
+												<ul>
+													<li>
+														<b>Age:</b>
+														2 month
+													</li>
+													<li>
+														<b>Inoculations:</b>
+														none
+													</li>
+													<li>
+														<b>Diseases:</b>
+														none
+													</li>
+													<li>
+														<b>Parasites:</b>
+														none
+													</li>
+												</ul>
+												<button class="modal__close1">&#10006;</button>
+											</div>
+										</div>
+									</div>
 								</div>
-								<div class="modal1">
+								<div class="pet-info_column block">
+									<div class="item-about_img">
+										<img src="img/Jennifer.png" alt="" />
+									</div>
+									<div class="item-about_text">Jennifer</div>
+									<button class="item-about_button2">Learn more</button>
+								</div>
+								<div class="modal2">
 									<div class="modal__main">
 										<div class="modal__container"></div>
-										<img src="img/Katrine.png" alt="" />
+										<img src="img/Jennifer.png" alt="" />
 										<div class="modal-info">
 											<h2>Jennifer</h2>
-											<h3>Cat- Katrine</h3>
+											<h3>Dog- labrador</h3>
 											<p>
-												Katrine is a lovely 2-year-old cat who is patiently
-												looking for her forever home. This playful girl adores
-												exploring the outdoors and soaking up the sunshine, but
-												she also loves curling up inside for cozy nap times.
-												With her charming personality, Luna enjoys entertaining
-												herself with her favorite toys and engaging in playful
-												antics. She's ready to bring joy and companionship to a
-												new family who will cherish her playful spirit and
-												affectionate nature!
+												Jennifer is a sweet 2 months old Labrador that is
+												patiently waiting to find a new forever home. This girl
+												really enjoys being able to go outside to run and play,
+												but won't hesitate to play up a storm in the house if
+												she has all of her favorite toys.
 											</p>
 											<ul>
 												<li>
@@ -158,107 +205,66 @@
 													none
 												</li>
 											</ul>
-											<button class="modal__close1">&#10006;</button>
+											<button class="modal__close2">&#10006;</button>
+										</div>
+									</div>
+								</div>
+								<div class="pet-info_column block">
+									<div class="item-about_img">
+										<img src="img/Woody.png" alt="" />
+									</div>
+									<div class="item-about_text">Woody</div>
+									<button class="item-about_button3">Learn more</button>
+								</div>
+								<div class="modal3">
+									<div class="modal__main">
+										<div class="modal__container"></div>
+										<img src="img/Woody.png" alt="" />
+										<div class="modal-info">
+											<h2>Woody</h2>
+											<h3>Dog- labrador</h3>
+											<p>
+												Woody is a charming 5-year-old Labrador who is eagerly
+												looking for his forever home. This friendly boy loves to
+												spend time outdoors, running and playing fetch, but he
+												also enjoys cozy moments inside, especially when
+												surrounded by his favorite toys. Woody is patient and
+												gentle, making him the perfect companion for families or
+												individuals looking for a loyal friend.
+											</p>
+											<ul>
+												<li>
+													<b>Age:</b>
+													5 years
+												</li>
+												<li>
+													<b>Inoculations:</b>
+													none
+												</li>
+												<li>
+													<b>Diseases:</b>
+													none
+												</li>
+												<li>
+													<b>Parasites:</b>
+													none
+												</li>
+											</ul>
+											<button class="modal__close3">&#10006;</button>
 										</div>
 									</div>
 								</div>
 							</div>
-							<div class="pet-info_column">
-								<div class="item-about_img">
-									<img src="img/Jennifer.png" alt="" />
-								</div>
-								<div class="item-about_text">Jennifer</div>
-								<button class="item-about_button2">Learn more</button>
-							</div>
-							<div class="modal2">
-								<div class="modal__main">
-									<div class="modal__container"></div>
-									<img src="img/Jennifer.png" alt="" />
-									<div class="modal-info">
-										<h2>Jennifer</h2>
-										<h3>Dog- labrador</h3>
-										<p>
-											Jennifer is a sweet 2 months old Labrador that is
-											patiently waiting to find a new forever home. This girl
-											really enjoys being able to go outside to run and play,
-											but won't hesitate to play up a storm in the house if she
-											has all of her favorite toys.
-										</p>
-										<ul>
-											<li>
-												<b>Age:</b>
-												2 month
-											</li>
-											<li>
-												<b>Inoculations:</b>
-												none
-											</li>
-											<li>
-												<b>Diseases:</b>
-												none
-											</li>
-											<li>
-												<b>Parasites:</b>
-												none
-											</li>
-										</ul>
-										<button class="modal__close2">&#10006;</button>
-									</div>
-								</div>
-							</div>
-							<div class="pet-info_column">
-								<div class="item-about_img">
-									<img src="img/Woody.png" alt="" />
-								</div>
-								<div class="item-about_text">Woody</div>
-								<button class="item-about_button3">Learn more</button>
-							</div>
-							<div class="modal3">
-								<div class="modal__main">
-									<div class="modal__container"></div>
-									<img src="img/Woody.png" alt="" />
-									<div class="modal-info">
-										<h2>Woody</h2>
-										<h3>Dog- labrador</h3>
-										<p>
-											Woody is a charming 5-year-old Labrador who is eagerly
-											looking for his forever home. This friendly boy loves to
-											spend time outdoors, running and playing fetch, but he
-											also enjoys cozy moments inside, especially when
-											surrounded by his favorite toys. Woody is patient and
-											gentle, making him the perfect companion for families or
-											individuals looking for a loyal friend.
-										</p>
-										<ul>
-											<li>
-												<b>Age:</b>
-												5 years
-											</li>
-											<li>
-												<b>Inoculations:</b>
-												none
-											</li>
-											<li>
-												<b>Diseases:</b>
-												none
-											</li>
-											<li>
-												<b>Parasites:</b>
-												none
-											</li>
-										</ul>
-										<button class="modal__close3">&#10006;</button>
-									</div>
-								</div>
-							</div>
 						</div>
-						<button
-							onclick="location.href='pets.html'"
-							class="item-about__button-rest"
-						>
-							Get to know the rest
-						</button>
+						<div class="arrow_slider_right">&#8594;</div>
 					</div>
+
+					<button
+						onclick="location.href='pets.html'"
+						class="item-about__button-rest"
+					>
+						Get to know the rest
+					</button>
 				</div>
 			</section>
 			<section id="fourth-section" class="shelter-help">
@@ -280,6 +286,7 @@
 							<div class="shelter-help__icon">
 								<img src="svg/icon-toys.svg" alt="Toys" />Toys
 							</div>
+
 							<div class="shelter-help__icon">
 								<img src="svg/icon-bowls-and-cups.svg" alt="Bowls and cups" />
 								Bowls and cups
@@ -287,11 +294,12 @@
 							<div class="shelter-help__icon">
 								<img src="svg/icon-shampoos.svg" alt="Shampoos" />Shampoos
 							</div>
-						</div>
-						<div class="shelter-help__second">
-							<div class="shelter-help__icon">
-								<img src="svg/icon-vitamins.svg" alt="Vitamins" />Vitamins
+							<div class="shelter-help__second">
+								<div class="shelter-help__icon">
+									<img src="svg/icon-vitamins.svg" alt="Vitamins" />Vitamins
+								</div>
 							</div>
+
 							<div class="shelter-help__icon">
 								<img src="svg/icon-medicines.svg" alt="" />Medicines
 							</div>
@@ -364,6 +372,7 @@
 				</div>
 			</div>
 		</footer>
+		<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 		<script src="script.js" defer></script>
 	</body>
 </html>
