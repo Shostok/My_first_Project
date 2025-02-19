@@ -1,0 +1,102 @@
+.modal1,
+.modal2,
+.modal3 {
+	position: fixed;
+	inset: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	display: flex;
+	cursor: pointer;
+	padding: 30px;
+	overflow-y: auto;
+	display: none;
+}
+
+.modal__main {
+	position: relative;
+	width: 900px;
+	height: 500px;
+	background-color: azure;
+	margin: auto;
+	color: #000;
+	display: flex;
+	justify-content: space-around;
+	padding: 30px;
+	cursor: default;
+	z-index: 1;
+}
+
+.modal__close1,
+.modal__close2,
+.modal__close3 {
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+	font-size: 22px;
+	position: absolute;
+	top: 20px;
+	right: 10px;
+	outline: 1px solid transparent;
+	outline-width: 3px;
+	transition: outline-color 0.15s ease-in-out;
+	border-radius: 3px;
+	padding: 0;
+	text-align: center;
+	display: block;
+	width: 30px;
+	height: 30px;
+}
+
+.modal__close:focus-visible {
+	outline-color: red;
+}
+
+.modal-info h2 {
+	font-family: Georgia;
+	font-size: 35px;
+	font-weight: 400;
+	line-height: 45.5px;
+	letter-spacing: 0.06em;
+	text-align: left;
+	text-underline-position: from-font;
+	text-decoration-skip-ink: none;
+	margin-top: 50px;
+}
+
+.modal-info h3 {
+	font-family: Georgia;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 23px;
+	letter-spacing: 0.06em;
+	text-align: left;
+	text-underline-position: from-font;
+	text-decoration-skip-ink: none;
+	padding-top: 10px;
+}
+
+.modal-info p {
+	font-family: Georgia;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 16.5px;
+	letter-spacing: 0.06em;
+	text-align: left;
+	text-underline-position: from-font;
+	text-decoration-skip-ink: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 40px 0px;
+}
+
+.modal-info li {
+	font-family: Georgia;
+	font-size: 15px;
+	font-weight: 400;
+
+	letter-spacing: 0.06em;
+	text-align: left;
+	text-underline-position: from-font;
+	text-decoration-skip-ink: none;
+	line-height: 20px;
+}

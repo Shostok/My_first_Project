@@ -1,12 +1,378 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <script src="script.js"></script>
-  </body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0,
+    user-scalable=no, maximum-scale=1.0, minimum-scale=1.0"
+		/>
+		<title>Cozy House | Home</title>
+		<link rel="stylesheet" href="css.styles/base.css" />
+		<link rel="stylesheet" href="css.styles/header.css" />
+		<link rel="stylesheet" href="css.styles/first_section.css" />
+		<link rel="stylesheet" href="css.styles/section_info.css" />
+		<link rel="stylesheet" href="css.styles/pet_info.css" />
+		<link rel="stylesheet" href="css.styles/buttons.css" />
+		<link rel="stylesheet" href="css.styles/shelter_help.css" />
+		<link rel="stylesheet" href="css.styles/responsive.css" />
+		<link rel="stylesheet" href="css.styles/donation.css" />
+		<link rel="stylesheet" href="css.styles/footer.css" />
+		<link rel="stylesheet" href="css.styles/modal_window.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+		/>
+
+		<link
+			rel="stylesheet"
+			href="css.styles/media.css"
+			media="all and (max-width:900px)"
+		/>
+	</head>
+	<body>
+		<header class="header">
+			<div class="wrapp">
+				<div class="left_side">
+					<h1 class="h1_title">Cozy House</h1>
+					<p class="p2">Shelter for pets in Boston</p>
+				</div>
+
+				<div class="right_side">
+					<nav class="nav_header">
+						<ul class="nav-menu">
+							<a class="my-link" href="#second-section">About the shelter</a>
+							<li class="nav-item">
+								<a class="my-link" href="#third-section">Our pets</a>
+							</li>
+							<li class="nav-item">
+								<a class="my-link" href="#fourth-section">Help the shelter</a>
+							</li>
+							<li class="nav-item">
+								<a class="my-link" href="#footer-section">Contacts</a>
+							</li>
+						</ul>
+						<div class="hamburger">
+							<span class="span"></span>
+							<span class="span"></span>
+							<span class="span"></span>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<main class="main">
+			<section id="first-section" class="first_section">
+				<div class="cry_story">
+					<h1 class="h1_section">
+						Not only people <br />
+						need a house
+					</h1>
+					<p class="p1_section">
+						We offer to give a chance to a little and nice puppy with an
+						extremely wide and open heart. He or she will love you more than
+						anybody else in the world, you will see!
+					</p>
+					<button class="button_make_friend">Make a friend</button>
+				</div>
+				<div class="friend_photo">
+					<img src="img/doggy.png" alt="doggy" />
+				</div>
+			</section>
+			<section id="second-section" class="section-info">
+				<div class="first-section__img">
+					<img
+						class="section-info_img"
+						src="img/de200ad351db707bd7878caaee2f7b79.png"
+						alt="Dog with cat"
+					/>
+				</div>
+				<div class="section-info__rewiev">
+					<h1 class="section-info__title">
+						About the shelter <br />"Cozy House"
+					</h1>
+					<p class="section-info__p">
+						Currently we have 121 dogs and 342 cats on our hands and statistics
+						show that only 20% of them will find a family. The others will
+						continue to live with us and will be waiting for a lucky chance to
+						become dearly loved.
+					</p>
+
+					<p class="section-info__psecond">
+						We feed our wards with the best food and make sure that they do not
+						get sick, feel comfortable (including psychologically) and well. We
+						are supported by 87 volunteers and 28 employees of various skill
+						levels. About 12% of the animals are taken by the shelter staff.
+						Taking care of the animals, they become attached to the pets and
+						would hardly ever leave them alone.
+					</p>
+				</div>
+			</section>
+			<section id="third-section" class="pet-info">
+				<div class="pet-info_header">
+					<div class="pet-info_title title">
+						Our friends who <br />
+						are looking for a house
+					</div>
+					<div id="slider-container" class="slider-container">
+						<div class="arrow_slider_left">&#8592;</div>
+						<div id="slider" class="slider-track">
+							<div class="pet-info_row">
+								<div class="pet-info_column block">
+									<div class="item-about_img">
+										<img src="img/Katrine.png" alt="" />
+									</div>
+
+									<div class="item-about_text">Katrine</div>
+									<button class="item-about_button1">Learn more</button>
+									<div class="modal1">
+										<div class="modal__main">
+											<div class="modal__container"></div>
+											<img src="img/Katrine.png" alt="" />
+											<div class="modal-info">
+												<h2>Jennifer</h2>
+												<h3>Cat- Katrine</h3>
+												<p>
+													Katrine is a lovely 2-year-old cat who is patiently
+													looking for her forever home. This playful girl adores
+													exploring the outdoors and soaking up the sunshine,
+													but she also loves curling up inside for cozy nap
+													times. With her charming personality, Luna enjoys
+													entertaining herself with her favorite toys and
+													engaging in playful antics. She's ready to bring joy
+													and companionship to a new family who will cherish her
+													playful spirit and affectionate nature!
+												</p>
+												<ul>
+													<li>
+														<b>Age:</b>
+														2 month
+													</li>
+													<li>
+														<b>Inoculations:</b>
+														none
+													</li>
+													<li>
+														<b>Diseases:</b>
+														none
+													</li>
+													<li>
+														<b>Parasites:</b>
+														none
+													</li>
+												</ul>
+												<button class="modal__close1">&#10006;</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="pet-info_column block">
+									<div class="item-about_img">
+										<img src="img/Jennifer.png" alt="" />
+									</div>
+									<div class="item-about_text">Jennifer</div>
+									<button class="item-about_button2">Learn more</button>
+								</div>
+								<div class="modal2">
+									<div class="modal__main">
+										<div class="modal__container"></div>
+										<img src="img/Jennifer.png" alt="" />
+										<div class="modal-info">
+											<h2>Jennifer</h2>
+											<h3>Dog- labrador</h3>
+											<p>
+												Jennifer is a sweet 2 months old Labrador that is
+												patiently waiting to find a new forever home. This girl
+												really enjoys being able to go outside to run and play,
+												but won't hesitate to play up a storm in the house if
+												she has all of her favorite toys.
+											</p>
+											<ul>
+												<li>
+													<b>Age:</b>
+													2 month
+												</li>
+												<li>
+													<b>Inoculations:</b>
+													none
+												</li>
+												<li>
+													<b>Diseases:</b>
+													none
+												</li>
+												<li>
+													<b>Parasites:</b>
+													none
+												</li>
+											</ul>
+											<button class="modal__close2">&#10006;</button>
+										</div>
+									</div>
+								</div>
+								<div class="pet-info_column block">
+									<div class="item-about_img">
+										<img src="img/Woody.png" alt="" />
+									</div>
+									<div class="item-about_text">Woody</div>
+									<button class="item-about_button3">Learn more</button>
+								</div>
+								<div class="modal3">
+									<div class="modal__main">
+										<div class="modal__container"></div>
+										<img src="img/Woody.png" alt="" />
+										<div class="modal-info">
+											<h2>Woody</h2>
+											<h3>Dog- labrador</h3>
+											<p>
+												Woody is a charming 5-year-old Labrador who is eagerly
+												looking for his forever home. This friendly boy loves to
+												spend time outdoors, running and playing fetch, but he
+												also enjoys cozy moments inside, especially when
+												surrounded by his favorite toys. Woody is patient and
+												gentle, making him the perfect companion for families or
+												individuals looking for a loyal friend.
+											</p>
+											<ul>
+												<li>
+													<b>Age:</b>
+													5 years
+												</li>
+												<li>
+													<b>Inoculations:</b>
+													none
+												</li>
+												<li>
+													<b>Diseases:</b>
+													none
+												</li>
+												<li>
+													<b>Parasites:</b>
+													none
+												</li>
+											</ul>
+											<button class="modal__close3">&#10006;</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="arrow_slider_right">&#8594;</div>
+					</div>
+
+					<button
+						onclick="location.href='pets.html'"
+						class="item-about__button-rest"
+					>
+						Get to know the rest
+					</button>
+				</div>
+			</section>
+			<section id="fourth-section" class="shelter-help">
+				<div class="shelter-help__card">
+					<h1 class="shelter-help__title">
+						How you can help <br />our shelter
+					</h1>
+					<div class="shelter-help__items">
+						<div class="shelter-help__first">
+							<div class="shelter-help__icon">
+								<img src="svg/icon-pet-food.svg" alt="Pet food" /> Pet food
+							</div>
+							<div class="shelter-help__icon">
+								<img
+									src="svg/icon-transportation.svg"
+									alt="Transportation"
+								/>Transportation
+							</div>
+							<div class="shelter-help__icon">
+								<img src="svg/icon-toys.svg" alt="Toys" />Toys
+							</div>
+
+							<div class="shelter-help__icon">
+								<img src="svg/icon-bowls-and-cups.svg" alt="Bowls and cups" />
+								Bowls and cups
+							</div>
+							<div class="shelter-help__icon">
+								<img src="svg/icon-shampoos.svg" alt="Shampoos" />Shampoos
+							</div>
+							<div class="shelter-help__second">
+								<div class="shelter-help__icon">
+									<img src="svg/icon-vitamins.svg" alt="Vitamins" />Vitamins
+								</div>
+							</div>
+
+							<div class="shelter-help__icon">
+								<img src="svg/icon-medicines.svg" alt="" />Medicines
+							</div>
+							<div class="shelter-help__icon">
+								<img
+									src="svg/icon-collars-leashes.svg"
+									alt="Collars / leashes"
+								/>Collars / leashes
+							</div>
+							<div class="shelter-help__icon">
+								<img
+									src="svg/icon-sleeping-area.svg"
+									alt="Sleeping areas"
+								/>Sleeping areas
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="fifth-section" class="donation">
+				<div class="donation-info">
+					<div class="donation-info__img">
+						<img src="img/donation-dog.png" alt="doggy" />
+					</div>
+					<div class="donation-info__info">
+						<h3>
+							You can also <br />
+							make a donation
+						</h3>
+						<h5>Name of the bank / Type of bank account</h5>
+						<p class="donation-info__card">
+							<img src="svg/credit-card.svg" alt="credit-card" />8380 2880 8028
+							8791 7435
+						</p>
+						<p class="donation-info__about">
+							"Help us care for vulnerable animals by donating to our shelter.
+							<br />Your generous contributions provide food, medical treatment,
+							<br />and loving homes for abandoned pets. Together, we can make a
+							<br />difference and give these animals the love they deserve."
+						</p>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer id="footer-section" class="footer">
+			<div class="footer-info">
+				<div class="footer-info__questions">
+					<h3 class="footer-info__h3">For questions <br />and suggestions</h3>
+					<p class="footer-info__p">
+						<img src="svg/icon-email.svg" alt="icon-email" />email@shelter.com
+					</p>
+					<p class="footer-info__p">
+						<img src="svg/icon-phone.svg" alt="icon-phone" />+13 674 567 75 54
+					</p>
+				</div>
+				<div class="footer-info__visit">
+					<h3 class="footer-info__h3">We are waiting <br />for your visit</h3>
+					<p class="footer-info__p">
+						<img src="svg/icon-marker.png" alt="icon-marker" />1 Central Street,
+						Boston <br />
+						(entrance from the store)
+					</p>
+					<p class="footer-info__p">
+						<img src="svg/icon-marker.png" alt="icon-marker" />18 South Park,
+						London
+					</p>
+				</div>
+				<div class="footer-info__img">
+					<img src="img/footer-puppy.png" alt="footer-puppy" />
+				</div>
+			</div>
+		</footer>
+		<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+		<script src="script.js" defer></script>
+	</body>
 </html>

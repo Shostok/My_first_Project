@@ -1,0 +1,33 @@
+.first_section {
+	display: flex;
+	width: 1280px;
+	justify-content: space-between;
+	align-items: center;
+	background: linear-gradient(to right, #5b483a, #262425, #211f20);
+}
+
+.cry_story {
+	padding-left: 40px;
+	color: white;
+	text-align: left;
+}
+
+.friend_photo {
+	padding-top: 180px;
+}
+
+.h1_section {
+	font-family: Georgia;
+	font-weight: 400;
+	font-size: 44px;
+	line-height: 57px;
+	letter-spacing: 0%;
+}
+.p1_section {
+	font-family: Arial;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 24px;
+	letter-spacing: 0px;
+	padding-top: 42px;
+}
